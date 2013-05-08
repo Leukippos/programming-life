@@ -1,0 +1,205 @@
+---
+- name: rake
+  version: 10.0.3
+  install_options: --source rubygems repository https://rubygems.org/
+- name: bundler
+  version: 1.2.4
+  install_options: --source rubygems repository https://rubygems.org/
+- name: i18n
+  version: 0.6.4
+  install_options: --source rubygems repository https://rubygems.org/
+- name: multi_json
+  version: 1.7.1
+  install_options: --source rubygems repository https://rubygems.org/
+- name: activesupport
+  version: 3.2.12
+  install_options: --source rubygems repository https://rubygems.org/
+- name: builder
+  version: 3.0.4
+  install_options: --source rubygems repository https://rubygems.org/
+- name: activemodel
+  version: 3.2.12
+  install_options: --source rubygems repository https://rubygems.org/
+- name: erubis
+  version: 2.7.0
+  install_options: --source rubygems repository https://rubygems.org/
+- name: journey
+  version: 1.0.4
+  install_options: --source rubygems repository https://rubygems.org/
+- name: rack
+  version: 1.4.5
+  install_options: --source rubygems repository https://rubygems.org/
+- name: rack-cache
+  version: '1.2'
+  install_options: --source rubygems repository https://rubygems.org/
+- name: rack-test
+  version: 0.6.2
+  install_options: --source rubygems repository https://rubygems.org/
+- name: hike
+  version: 1.2.1
+  install_options: --source rubygems repository https://rubygems.org/
+- name: tilt
+  version: 1.3.6
+  install_options: --source rubygems repository https://rubygems.org/
+- name: sprockets
+  version: 2.2.2
+  install_options: --source rubygems repository https://rubygems.org/
+- name: actionpack
+  version: 3.2.12
+  install_options: --source rubygems repository https://rubygems.org/
+- name: mime-types
+  version: '1.21'
+  install_options: --source rubygems repository https://rubygems.org/
+- name: polyglot
+  version: 0.3.3
+  install_options: --source rubygems repository https://rubygems.org/
+- name: treetop
+  version: 1.4.12
+  install_options: --source rubygems repository https://rubygems.org/
+- name: mail
+  version: 2.4.4
+  install_options: --source rubygems repository https://rubygems.org/
+- name: actionmailer
+  version: 3.2.12
+  install_options: --source rubygems repository https://rubygems.org/
+- name: arel
+  version: 3.0.2
+  install_options: --source rubygems repository https://rubygems.org/
+- name: tzinfo
+  version: 0.3.37
+  install_options: --source rubygems repository https://rubygems.org/
+- name: activerecord
+  version: 3.2.12
+  install_options: --source rubygems repository https://rubygems.org/
+- name: activeresource
+  version: 3.2.12
+  install_options: --source rubygems repository https://rubygems.org/
+- name: nokogiri
+  version: 1.5.9
+  install_options: --source rubygems repository https://rubygems.org/
+- name: xpath
+  version: 2.0.0
+  install_options: --source rubygems repository https://rubygems.org/
+- name: capybara
+  version: 2.1.0
+  install_options: --source rubygems repository https://rubygems.org/
+- name: ffi
+  version: 1.5.0
+  install_options: --source rubygems repository https://rubygems.org/
+- name: childprocess
+  version: 0.3.9
+  install_options: --source rubygems repository https://rubygems.org/
+- name: coffee-script-source
+  version: 1.6.2
+  install_options: --source rubygems repository https://rubygems.org/
+- name: execjs
+  version: 1.4.0
+  install_options: --source rubygems repository https://rubygems.org/
+- name: coffee-script
+  version: 2.2.0
+  install_options: --source rubygems repository https://rubygems.org/
+- name: rack-ssl
+  version: 1.3.3
+  install_options: --source rubygems repository https://rubygems.org/
+- name: json
+  version: 1.7.7
+  install_options: --source rubygems repository https://rubygems.org/
+- name: rdoc
+  version: 3.12.2
+  install_options: --source rubygems repository https://rubygems.org/
+- name: thor
+  version: 0.17.0
+  install_options: --source rubygems repository https://rubygems.org/
+- name: railties
+  version: 3.2.12
+  install_options: --source rubygems repository https://rubygems.org/
+- name: coffee-rails
+  version: 3.2.2
+  install_options: --source rubygems repository https://rubygems.org/
+- name: colorize
+  version: 0.5.8
+  install_options: --source rubygems repository https://rubygems.org/
+- name: rest-client
+  version: 1.6.7
+  install_options: --source rubygems repository https://rubygems.org/
+- name: simplecov-html
+  version: 0.7.1
+  install_options: --source rubygems repository https://rubygems.org/
+- name: simplecov
+  version: 0.7.1
+  install_options: --source rubygems repository https://rubygems.org/
+- name: coveralls
+  version: 0.6.7
+  install_options: --source rubygems repository https://rubygems.org/
+- name: diff-lcs
+  version: 1.2.1
+  install_options: --source rubygems repository https://rubygems.org/
+- name: eventmachine
+  version: 1.0.3
+  install_options: --source rubygems repository https://rubygems.org/
+- name: faye-websocket
+  version: 0.4.7
+  install_options: --source rubygems repository https://rubygems.org/
+- name: http_parser.rb
+  version: 0.5.3
+  install_options: --source rubygems repository https://rubygems.org/
+- name: jasmine-core
+  version: 1.3.1
+  install_options: --source rubygems repository https://rubygems.org/
+- name: rspec-core
+  version: 2.13.1
+  install_options: --source rubygems repository https://rubygems.org/
+- name: rspec-expectations
+  version: 2.13.0
+  install_options: --source rubygems repository https://rubygems.org/
+- name: rspec-mocks
+  version: 2.13.0
+  install_options: --source rubygems repository https://rubygems.org/
+- name: rspec
+  version: 2.13.0
+  install_options: --source rubygems repository https://rubygems.org/
+- name: rubyzip
+  version: 0.9.9
+  install_options: --source rubygems repository https://rubygems.org/
+- name: websocket
+  version: 1.0.7
+  install_options: --source rubygems repository https://rubygems.org/
+- name: selenium-webdriver
+  version: 2.31.0
+  install_options: --source rubygems repository https://rubygems.org/
+- name: jasmine
+  version: 1.3.2
+  install_options: --source rubygems repository https://rubygems.org/
+- name: jquery-rails
+  version: 2.2.1
+  install_options: --source rubygems repository https://rubygems.org/
+- name: nested_form
+  version: 0.3.2
+  install_options: --source rubygems repository https://rubygems.org/
+- name: poltergeist
+  version: 1.2.0
+  install_options: --source rubygems repository https://rubygems.org/
+- name: phantomjs
+  version: 1.8.1.1
+  install_options: --source rubygems repository https://rubygems.org/
+- name: rails
+  version: 3.2.12
+  install_options: --source rubygems repository https://rubygems.org/
+- name: sass
+  version: 3.2.7
+  install_options: --source rubygems repository https://rubygems.org/
+- name: sass-rails
+  version: 3.2.6
+  install_options: --source rubygems repository https://rubygems.org/
+- name: sqlite3
+  version: 1.3.7
+  install_options: --source rubygems repository https://rubygems.org/
+- name: teabag
+  version: 0.7.1
+  install_options: --source rubygems repository https://rubygems.org/
+- name: uglifier
+  version: 1.3.0
+  install_options: --source rubygems repository https://rubygems.org/
+- name: will_paginate
+  version: 3.0.4
+  install_options: --source rubygems repository https://rubygems.org/
